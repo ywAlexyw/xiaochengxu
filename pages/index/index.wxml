@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<!-- <import src="../compments/videoCard/VideoCard.wxml"></import> -->
+<!-- <import src="../compments/top/Top.wxml"></import> -->
+<!-- <import src="../compments/footer/Footer.wxml"></import> -->
+
+<view class="container">
+  <Top class="Top"></Top>
+  <view class='navs'>
+    <view class='navs-item' wx:for="{{navs}}" wx:key="index" wx:for-itme="item">
+      <a class="navs-item-title">{{item.title}}</a>
+    </view>  
+  </view>
+  <VideoCard class="VideoCard"></VideoCard>
+  <VideoCard class="VideoCard"></VideoCard>
+  <button bindtap="scanCode">扫一扫</button>
+  <input type='text' placeholder='你好' bindinput='messageUpdate'>{{message}}</input>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <!-- <Footer></Footer> -->
+</view>

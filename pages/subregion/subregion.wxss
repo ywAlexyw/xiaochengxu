@@ -1,0 +1,25 @@
+/* pages/subregion/subregion.wxss */
+
+.subregionPage {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 35rpx;
+}
+
+.subItem {
+  position: relative;
+  margin: 30rpx 50rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.subItem_icon {
+  width: 70rpx;
+  height: 70rpx;
+  background-color: red;
+}
+
+.Footer {
+  width: 100%;
+}

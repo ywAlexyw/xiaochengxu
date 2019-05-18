@@ -1,0 +1,8 @@
+{
+
+  "usingComponents": {
+    "Top": "../components/top/Top",
+    "Footer": "../components/footer/Footer",
+    "VideoCard": "../components/videoCard/VideoCard"
+  }
+}

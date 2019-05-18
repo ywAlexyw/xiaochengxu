@@ -1,0 +1,8 @@
+<!--pages/compments/top.wxml-->
+<view class='top'>
+  <view class='searchBox'>
+    <!-- <image></image> -->
+    <input class='searchBox-input' placeholder="复仇者联盟4"></input>
+  </view>
+  <view class='more' bindtap='searchBtn'>aaa</view>
+</view>

@@ -1,0 +1,37 @@
+<!--pages/search/search.wxml-->
+<import src="../compments/top/Top.wxml"></import>
+<view class='container'>
+  <template is='Top'></template>
+  <view class='searchTag'>
+    <view class='search_title'>大家都在搜</view>
+    <ul class='tagUL'>
+      <li class='tagLI'>和平精英</li>
+      <li class='tagLI'>音乐</li>
+      <li class='tagLI'>音乐</li>
+      <li class='tagLI'>和平精英</li>
+      <li class='tagLI'>音乐</li>
+      <li class='tagLI'>和平精英</li>
+      <li class='tagLI'>音乐</li>
+    </ul>
+  </view>
+  <view class='history'>
+    <view class='search_title'>搜索历史</view>
+    <ul class='historyUL'>
+      <li class='historyLI'>
+        <view class='timeIcon'></view>
+        <text class='li-ID'>av39420451</text>
+        <view class='delBtn'></view>
+      </li>
+      <li class='historyLI'>
+        <view class='timeIcon'></view>
+        <text class='li-ID'>av39420451</text>
+        <view class='delBtn'></view>
+      </li>
+      <li class='historyLI'>
+        <view class='timeIcon'></view>
+        <text class='li-ID'>av39420451</text>
+        <view class='delBtn'></view>
+      </li>
+    </ul>
+  </view>
+</view>

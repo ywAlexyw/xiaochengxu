@@ -1,0 +1,28 @@
+/* pages/compments/top.wxss */
+.top {
+  position: relative;
+  width: 100%;
+  height: 50rpx;
+  display: flex;
+}
+
+.searchBox {
+  position: relative;
+  width: 85%;
+  height: 100%;
+  border-radius: 25rpx;
+  background-color: #ddd;
+}
+
+.more {
+  width: 80rpx;
+  height: 90%;
+  margin-left: 20rpx;
+  background-color: red;
+}
+
+.searchBox-input {
+  position: relative;
+  font-size: 25rpx;
+  margin-left: 60rpx;
+}

@@ -1,0 +1,76 @@
+<!--pages/subregion/subregion.wxml-->
+<view class='subregionPage'>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+ <view class='subItem'>
+    <view class='subItem_icon'>a</view>
+    <view class='subItem_title'>番剧</view>
+ </view>
+</view>
+<Footer class="Footer"></Footer>

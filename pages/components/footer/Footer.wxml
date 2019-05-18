@@ -1,0 +1,5 @@
+<!--pages/compments/footer/Footer.wxml-->
+<view class='footerFixed'>
+  <view class='ff-index' bindtap='indexPage'>首页</view>|
+  <view class='ff-partition' bindtap='partitionPage'>分区</view>
+</view>

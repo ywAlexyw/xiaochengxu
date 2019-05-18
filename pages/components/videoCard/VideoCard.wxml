@@ -1,0 +1,34 @@
+<view class='card'>
+  <view class='videoCards'>
+    <view class='videoImage'>
+      <!-- <image></image> -->
+      <view class='videoInfo'>
+        <view class='videoTime'>00:00</view>
+        <view class='plays'>
+          <view class='playNum'>000次播放</view>
+          <view class='barrage'>000弹幕</view>
+        </view>
+      </view>
+    </view>
+    <view class='videoUper'>
+      <view class='uperIcon'>
+        <icon class='uper-image'></icon>
+      </view>
+      <view class='videoTitle'>
+        <view class='videoTitle_title'>
+          <text>阿萨德科技啊看见的好多奥术大师大所多</text>
+        </view>
+        <view class='videoTitle_uper'>
+          <text>作者名</text>·
+          <text>5-3</text>
+        </view>
+      </view>
+      <view class='vidoTag'>
+        标签
+      </view>
+      <button class='vidoTag shareBtn' open-type="share">
+        分享
+      </button>
+    </view>
+  </view>
+</view>
